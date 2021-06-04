@@ -1,0 +1,158 @@
+
+
+header {   
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: verdana;
+    font-size: 15px;
+    padding-right: 2em;
+    background-color:navy;
+  
+   
+  }  
+  
+  .row{
+    justify-content: space-around;
+    
+  } 
+  .main{
+    background-color: rgb(113, 113, 245);
+  }
+  .main-row{
+   padding-inline-start: 3em;
+    justify-content: center;
+    width: 100%;
+    
+     
+  } 
+
+  #fotosFrente {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1em;
+  }
+  #fotosFrente img{
+     padding: 2em;
+      margin: 3em; 
+      width: 450px;
+      height: 450px;
+    }
+ 
+#email{
+align-self: flex-end;
+} 
+
+ footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:lightgray
+  font-family: verdana;
+  font-size: 15px;
+  height: 5vh;
+  padding-right: 2em;
+  padding-inline: 2em;
+  border-radius: 10px;
+  border:0.5px solid;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+
+}
+.fotoarticulo{
+  width: 200px;
+  height: 200px;
+    border-radius: 10px;
+  
+}
+
+#cointainer_art{
+ 
+  justify-content: center;
+  border-radius: 10px;
+  cursor:pointer;
+  user-select: none;
+}
+#precioyboton{
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 3em;
+}
+#cartel{
+  background-color: black;
+  text-align: center;
+  color:blanchedalmond;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+#cartel:hover {
+  background-color: powderblue;
+  transition: background-color .5s;
+}
+#cartel:hover {
+  background-color: gold;
+}
+
+#cointainer_art div{
+  cursor:pointer;
+  user-select: none;
+}
+
+#prefooter{
+  display: flex;
+  font-family: verdana 20px;
+  text-align: justify;
+  border-color: blue;
+  background-color: cornflowerblue;
+
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.icono{
+  width: 40px;
+  height: 40px;
+}
+
+
+footer *h2 {
+  justify-content: center;
+  text-align: center;
+  background-color: yellowgreen;
+
+}
+
+/* main {
+    font-family: verdana;
+    font-size: 15px;
+    border-radius: 10px;
+    border:0.5px solid;
+    padding-left: 4em;
+    padding-right: 3em;
+    padding-bottom: 4em;
+    padding-top: 4em;
+    width: 100%;
+    text-align: justify;
+    
+  } */
+ 
+
+  #checkboxes{
+    font-family: verdana 20px;
+    text-align: justify;
+    border-color: blue;
+    background-color: cornflowerblue;
+
+  }
+
+
+    
